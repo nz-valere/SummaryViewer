@@ -1,20 +1,75 @@
 .big{
     display: flex;
     width: 40%;
-    margin: 0 auto;
+    margin: 5px auto;
+    height: 50vh;
+    
 }
 .left{
     width: 50%;
-
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    color: hsl(241, 100%, 89%);
 }
 .right{
     width: 50%;
+    text-align: justify;
+    margin-left: 13px;
+    padding: 18px;
+    box-shadow: ;
 }
 .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 100%;
-    height: 35%;
-    width: auto;
-    background-color: hsl(241, 81%, 54%);
+    margin: 0 auto;
+    width: 8lh;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),#1C39BB);
+}
+.sm1, .sm2,.sm3,.sm4{
+    height: 5vh;
+    padding: auto, 0;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding-left: 5px;
+    margin-top: 5%;
+}
+.sm1{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.187);
+    margin-top: 10%;
+}
+.sm2{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.171);
+    
+}
+.sm3{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.162);
+}
+.sm4{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.151);
+    margin-bottom: 40px;
+}
+button{
+    background-color: hwb(224 19% 65%);
+    font-size: 1em;
+    height: 5vh;
+    width: 9lh;
     color: hsl(0, 0%, 100%);
-    justify-content:center ;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 5%;
+}
+h3{
+    color: white;
+}
+.num{
+    font-size: 40px;
 }
