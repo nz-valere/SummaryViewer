@@ -22,11 +22,14 @@
 }
 .circle{
     display: flex;
+    padding: 0vh;
     align-items: center;
     justify-content: center;
     border-radius: 100%;
     margin: 0 auto;
-    width: 8lh;
+    width: 20vh;
+    height: 20vh;
+    flex-direction: column;
     background: linear-gradient(hsla(256, 72%, 46%, 1),#1C39BB);
 }
 .sm1, .sm2,.sm3,.sm4{
@@ -72,4 +75,7 @@ h3{
 }
 .num{
     font-size: 40px;
+}
+.num1{
+    font-size: 20px;
 }
