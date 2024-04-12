@@ -86,7 +86,7 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [@nz-valere](https://github.com/nz-valere)
 - Frontend Mentor - [@nz-valere](https://www.frontendmentor.io/profile/nz-valere)
 
 ## Acknowledgments
