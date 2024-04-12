@@ -1,18 +1,22 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
 }
 .big{
     display: flex;
-    width: 45%;
+    width: 38em;
     margin: 10vh auto;
     height: 55vh;
     font-family: 'Hanken Grotesk';
     border-radius: 30px;
-    box-shadow: 5px 5px 0px 0px hsl(221, 100%, 96%);
+    box-shadow: 2px 5px 10px #1111111f;
+}
 .left{
     width: 50%;
-    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     border-radius: 30px;
     text-align: center;
     padding: 20px;
@@ -37,7 +41,7 @@ body{
     width: 20vh;
     height: 20vh;
     flex-direction: column;
-    background: linear-gradient(hsla(256, 72%, 46%, 1),#1C39BB);
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
 }
 .sm1, .sm2,.sm3,.sm4{
     height: 5vh;
@@ -76,6 +80,11 @@ button{
     color: hsl(0, 0%, 100%);
     border-radius: 30px;
     margin-left: 4%;
+    cursor: pointer;
+    border: 0;
+}
+button:hover{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),#1C39BB);
 }
 h3{
     color: white;
@@ -96,6 +105,33 @@ h3{
     color: black;
     margin-right: 5px;
 }
-/* p{
-    font-size: 18px;
-} */
+.noms{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 650px){
+    .big{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        width: 100%;
+        /* background-color: black; */
+        height: 98%;
+    }
+    .left{
+        margin-inline: 0px 0px;
+        width: 100%;
+        border-radius: 0px 0px 30px 30px;
+    }
+    body{
+        width: 100%;
+    } 
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 90%;
+    }
+    
+}
